@@ -176,8 +176,18 @@ header
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    color: aqua;
+    font-size: 30px;
 }
+
+::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: red;
+  }
 
 #ContactBorder #ContactTxt #ContactTxtBox
 {
