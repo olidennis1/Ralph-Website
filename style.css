@@ -170,6 +170,15 @@ header
     border-radius: 10px;
 }
 
+#ContactTxtBox
+{
+    background: url(img/ralphagny.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 #ContactBorder #ContactTxt #ContactTxtBox
 {
     width: 500px;
